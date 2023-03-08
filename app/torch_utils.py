@@ -27,7 +27,7 @@ class Net(nn.Module):
 
 model = Net()
 
-PATH = "cat_dog_net.pth"
+PATH = "app/cat_dog_net.pth"
 model.load_state_dict(torch.load(PATH))
 model.eval()
 
