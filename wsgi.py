@@ -1,0 +1,1 @@
+from app.main import app # imports the flask app
